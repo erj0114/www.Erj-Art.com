@@ -70,4 +70,10 @@ export default {
   margin: 0px 0px;
   font-size: 25px;
 }
+a:hover {
+  color: coral;
+}
+.navigation ::v-deep a:hover{
+  color: coral !important;
+}
 </style>

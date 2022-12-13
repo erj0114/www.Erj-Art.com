@@ -38,6 +38,9 @@ export default {
   overflow-y: auto;
 }
 .modal-header {
-  background-color: lightgray;
+  background-color:#007bff;
+}
+.modal-footer {
+  background: grey;
 }
 </style>

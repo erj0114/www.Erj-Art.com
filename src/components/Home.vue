@@ -10,7 +10,7 @@
     <p>
       <strong
         >Eric Johnson, is a Chicago native. Pushing the limits of what's
-        possible on can</strong
+        possible on Canvas with Acrlic paint.</strong
       >
     </p>
   </div>
