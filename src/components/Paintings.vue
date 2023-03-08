@@ -25,7 +25,8 @@
             <img :src="painting.src" v-b-modal="'paintingsPopUp'" @click="showPaintingPopUp(painting)" /> <br />
             {{ painting.name }}
             <br />
-            <span v-if="!painting.isSold"> ${{ painting.price }} </span>
+             <!-- put $ inbetween the !painting.isSold> and the --right here-- {{  -->
+            <span v-if="!painting.isSold"> {{ painting.price }} </span>
             <span v-if="painting.isSold">
               SOLD
             </span>
@@ -54,62 +55,50 @@ export default {
           {
             src: "../assets/backatthecoloringbookagain.jpg",
             name: "Back At The Coloring Book Again",
-            price: 350,
           },
           {
             src: "../assets/coldandhot.jpg",
             name: "Cold and Hot",
-            price: 350,
           },
           {
             src: "../assets/steeringatthesun.jpg",
             name: "Steering At The Sun",
-            price: 350,
           },
           {
             src: "../assets/cubsandwhitesoxgetalong.jpg",
             name: "Cubs and White Sox Get Along",
-            price: 350,
           },
           {
             src: "../assets/warminthesouthernhemisphere.jpg",
             name: "Warm In The Southern Hemisphere",
-            price: 350,
           },
           {
             src: "../assets/hieroglyphics.jpg",
             name: "Hieroglyphics",
-            price: 350,
           },
           {
             src: "../assets/sunlightinthecavern.jpg",
             name: "Sunlight In The Cavern",
-            price: 350,
           },
           {
             src: "../assets/northernsky.jpg",
             name: "Northern Sky",
-            price: 350,
           },
           {
             src: "../assets/warmgrass.jpg",
             name: "Warm Grass",
-            price: 350,
           },
           {
             src: "../assets/walkingtowardthebeach.jpg",
             name: "Walking Toward The Beach",
-            price: 350,
           },
           {
             src: "../assets/movequickly.jpg",
             name: "Move Quickly",
-            price: 350,
           },
           {
             src: "../assets/tropicalbreeze.jpg",
             name: "Tropical Breeze",
-            price: 350,
           },
           {
             src: "../assets/undertheseahowisee.jpg",
@@ -119,69 +108,69 @@ export default {
           {
             src: "../assets/easylistening.jpg",
             name: "Easy Listening",
-            price: 350,
+            
           },
           {
             src: "../assets/quickdip.jpg",
             name: "Quick Dip",
-            price: 350,
+            
           },
           {
             src: "../assets/galacticstarsunite.jpg",
             name: "Galactic Stars Unite",
-            price: 350,
+            
           },
           {
             src: "../assets/lavenderfields.jpg",
             name: "Lavender Fields",
-            price: 350,
+            
           },
           {
             src: "../assets/coloringbook.jpg",
             name: "Coloring Book",
-            price: 350,
+            
           },
           {
             src: "../assets/mrsaturdaynightoutonthetown.jpg",
             name: "Mr. Sat Night Out On Thet Town",
-            price: 350,
+            
           },
           {
             src: "../assets/freshoutoftheoven.jpg",
             name: "Fresh Out Of The Oven",
-            price: 350,
+            
           },
           {
             src: "../assets/everycolorispossible.jpg",
             name: "Every Color Is Possible",
-            price: 350,
+            
           },
           {
             src: "../assets/justpassingthrough.jpg",
             name: "Just Passing Through",
-            price: 350,
+            
           },
           {
             src: "../assets/blueberryyogurt.jpg",
             name: "Blueberry Yogurt",
-            price: 350,
+            
           },
         ],
         TwentyByTwentyFour: [
           {
             src: "../assets/itscalledwillamettedamnit.jpg",
             name: "Its Called Willamette Damnit",
-            price: 350,
+            
           },
           {
             src: "../assets/coolbreeze.jpg",
             name: "Cool Breeze.jpg",
-            price: 350,
+            
           },
           {
             src: "../assets/sunriseinparadise.jpg",
             name: "Sunrise In Paradise.jpg",
-            price: 350,
+            
           },
           {
             src: "../assets/thecoffeebean.jpg",
@@ -192,19 +181,19 @@ export default {
           {
             src: "../assets/campfireauroraborialis.jpg",
             name: "Camp Fire Auroaborialis",
-            price: 350,
+            
           },
           {
             src: "../assets/splat.jpg",
             name: "Splat",
-            price: 350,
+            
           },
         ],
         ThirtyByThirty: [
           {
             src: "/assets/fancytoseeyouhere.jpg",
             name: "Fancy To See You Here",
-            price: 600,
+            
           },
           {
             src: "/assets/globalmap.jpg",
@@ -214,26 +203,25 @@ export default {
           {
             src: "/assets/evolution.jpg",
             name: "Evolution",
-            price: 600,
+            
           },
           {
             src: "/assets/birthdayface.jpg",
             name: "Birthday Face",
-            price: 600,
+            
           },
         ],
         ThreeByThree: [
           {
             src: "/assets/lookingdownontolavenderfields.jpg",
             name: "Looking Down On to Lavender Fields",
-            price: 800,
-          },
+                      },
         ],
         FourByThree: [
           {
             src: "/assets/autumn.png",
             name: "Autumn",
-            price: 1000,
+            
           },
         ],
       },

@@ -32,7 +32,7 @@
             </router-link>
           </b-nav-item-dropdown>
           <b-nav-item
-            href="https://www.instagram.com/artworkofchicago/"
+            href="https://www.instagram.com/artworkfromchicago/"
             class="instagram"
           >
             <i class="fab fa-instagram"></i>
@@ -65,7 +65,7 @@ export default {
 }
 .navigation ::v-deep a {
   color: black;
-  text-decoration-color: $underline-color;
+  // text-decoration-color: $underline-color;
   text-align: center;
   margin: 0px 0px;
   font-size: 25px;
