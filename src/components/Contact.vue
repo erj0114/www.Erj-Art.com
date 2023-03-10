@@ -10,7 +10,7 @@
           Email me
         </i> </a
       ><br />
-      <call-button tel-number="‪(312) 857-3866‬" />Eric Johnson<br />
+      <call-button tel-number="‪(872) 216-8806‬" />Eric Johnson<br />
     </div>
   </div>
 </template>
