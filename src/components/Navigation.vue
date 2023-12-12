@@ -30,14 +30,18 @@
             <router-link to="/Paintings/FourByThree">
               4' x 3'
             </router-link>
+          
           </b-nav-item-dropdown>
-          <b-nav-item
+
+          <!-- Instagram nonsense that will appear in the navbar-->
+          <!-- <b-nav-item
             href="https://www.instagram.com/artworkfromchicago/"
             class="instagram"
           >
             <i class="fab fa-instagram"></i>
             Instagram
-          </b-nav-item>
+          </b-nav-item> -->
+          
           <b-nav-item v-b-modal.modal-1 href="#/Contact" class="Contact">
             <i class="fab fa-contact"></i>
             Contact

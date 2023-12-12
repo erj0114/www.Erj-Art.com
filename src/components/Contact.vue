@@ -5,12 +5,12 @@
       <section>
         <!-- <div class="locations-title">Contact</div>  -->
       </section>
-      <a href="mailto:erj0114@att.net">
+      <a href="mailto:eric@imejtech.com">
         <i class="fas fa-envelope-open-square">
           Email me
         </i> </a
       ><br />
-      <call-button tel-number="‪(872) 216-8806‬" />Eric Johnson<br />
+      <call-button tel-number="‪8722168806‬" />Eric Johnson<br />
     </div>
   </div>
 </template>

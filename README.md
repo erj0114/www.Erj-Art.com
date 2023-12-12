@@ -1,4 +1,4 @@
-# Erj-Art
+# Arist-ERJ
 
 ## Project setup
 ```
@@ -22,5 +22,5 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-# www.Erj-Art.com
-# www.Erj-Art.com
+# www.Arist-ERJ.com
+# www.Arist-ERJ.com

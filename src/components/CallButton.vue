@@ -1,4 +1,5 @@
 <template>
+  
   <a class="call-button" :href="'tel:'+telNumber">
     <Button>
       <i class="fas fa-phone fa-rotate-90"></i>

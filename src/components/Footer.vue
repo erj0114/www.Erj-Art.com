@@ -1,7 +1,7 @@
 <template>
   <div id="footer">
     <div class="text-container">
-      <strong>Erj-Art.com</strong><br />© 2018 All Rights Reserved
+      <strong>Artist-ERJ.com</strong><br />© 2018 All Rights Reserved
     </div>
   </div>
 </template>

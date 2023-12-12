@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <h3 v-html="title">
-      Welcome To Erj-Art.com
+      Welcome To Artist-ERJ.com
     </h3>
     <!-- <h3><span class="highlighted-letter">C</span>hicago
     <span class="highlighted-letter">B</span>ased <span class="highlighted-letter">A</span>rtists</h3> -->
