@@ -5,7 +5,6 @@
     </h3>
     <!-- <h3><span class="highlighted-letter">C</span>hicago
     <span class="highlighted-letter">B</span>ased <span class="highlighted-letter">A</span>rtists</h3> -->
-
     <br />
     <p>
       <strong
@@ -27,7 +26,7 @@ export default {
       let response = "";
       for (let i = 0; i < myTitle.length; i++) {
         const letter = myTitle[i];
-        if (i % 3 == 0) {
+        if (i % 2 == 0) {
           response += `<span class="highlighted-letter">${letter}</span>`;
         } else {
           response += letter;
@@ -44,6 +43,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+
 p {
   font-size: 25px;
 }
